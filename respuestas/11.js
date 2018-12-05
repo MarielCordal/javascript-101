@@ -2,7 +2,7 @@
     Declará y asigná un objeto llamado `miRecetaMatadora` que contenga 3 propiedades: `titulo` (string), `porciones` (número) e `ingredientes` (array de string). Mostrar el objeto creado en la terminal
 */
 
-var miRecetaMatadora = {
+let miRecetaMatadora = {
     titulo: 'Polenta con queso',
     porciones: 4,
     ingredientes: [
@@ -24,19 +24,19 @@ console.log(miRecetaMatadora);
         * Muestre por la terminal el nombre del primer elemento del array.
 */
 
-var persona1 = {
+let persona1 = {
     nombre: 'Juan',
     edad: 10
 };
-var persona2 = {
+let persona2 = {
     nombre: 'Pedro',
     edad: 20
 };
-var persona3 = {
+let persona3 = {
     nombre: 'Martin',
     edad: 30
 };
-var usuarios = [persona1, persona2, persona3];
+let usuarios = [persona1, persona2, persona3];
 
 console.log(usuarios.length);
 console.log(usuarios[1].edad);
